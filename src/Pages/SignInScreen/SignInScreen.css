@@ -1,0 +1,106 @@
+.signInScreen{
+    max-width: 450px;
+    margin-left: auto;
+    height: 120vh;
+    margin-right: auto;
+    margin-top: -17%;
+    background: rgba(0, 0, 0, 0.6);
+}
+.signInScreen > form{
+    display: grid;
+    padding: 70px;
+}
+.signInScreen > form > h1{
+    text-align: left;
+    margin-bottom: 25px;
+}
+.signInScreen > form > h4{
+    text-align: left;
+    margin-top: 30px;
+    margin-top: 5px;
+}
+.signInScreen-gray{
+    color: rgb(168, 167, 167);
+    font-weight: 350;
+    font-size: 16px;
+}
+.signInScreen-link{
+    font-weight: 500;
+}
+.signInScreen-link:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.signInScreen > form > input{
+    outline-width: 0;
+    height: 50px;
+    margin-bottom: 14px;
+    border-radius: 5px;
+    padding: 5px 15px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid gray;
+}
+.signInScreen > form > input::placeholder{
+    color: rgb(191, 189, 189);
+    font-size: 15px;
+}
+.signInScreen > form > button{
+    padding: 10px;
+    font-size: 1rem;
+    color: white;
+    background-color: #e50914;
+    border: none;
+    font-weight: 550;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-left: 2px;
+    margin-top: 5px;
+}
+.signInScreen > form > button:hover{
+    background-color: #ae0811;
+}
+.forgot{
+    margin-top: 15px;
+    font-weight: 350;
+}
+.forgot:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.marked{
+    margin-left: 3px;
+    margin-right: auto;
+    width: 17px;
+    margin-top:  75px;
+    background-color: white;
+    color: black;
+}
+.marked:hover{
+    color: gray;
+    background-color: white;
+}
+.signInScreen > form > label{
+    margin-top:  -50px;
+    display: flex;
+    margin-left: 30px;
+}
+.signInScreen > form > p{
+    margin-top: 10px;
+    margin-left: 0.1%;
+    text-align: left;
+    font-size: 13px;
+    font-weight: 400;
+    color: rgb(148, 147, 147);
+}
+.signInScreen > form >  h5{
+    color: hsl(221, 88%, 63%);
+    margin-top: -1.1rem;
+    margin-left: 2.7rem;
+    font-size: 13px;
+    font-weight: 400;
+}
+.signInScreen > form >  h5:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
