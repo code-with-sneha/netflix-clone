@@ -1,13 +1,14 @@
 import React, { useState } from 'react';
 import Accordion from 'react-bootstrap/Accordion';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import '../Pages/LoginScreen/LoginScreen.css';
 
 const SlideAccord = () => {
     const [signIn, setSignIn] = useState(false);
   return (
-    <div className="accordion-slide">
+    <div className="accordion-slide bg-dark">
         <h1>Frequently Asked Questions</h1>
-            <Accordion defaultActiveKey={0} style={{width: '90%',marginTop: '1%',marginLeft: '5%'}}>
+            <Accordion defaultActiveKey={0} style={{width: '90%',marginTop: '1%',marginLeft: '5%', backgroundColor: 'black'}}>
                 <Accordion.Item eventKey="0">
                     <Accordion.Header>
                         <h1 className='ahs' style={{backgroundColor: 'white', color: 'black'}}>What is Netflix?</h1>
@@ -60,7 +61,7 @@ const SlideAccord = () => {
             <div className="loginScreen-input">
                 <form style={{marginTop: '38px', fontWeight: '400'}}>
                     <input type="email" placeholder='Email Address'/>
-                        <button onClick={()=>setSignIn(true)} className='loginScreen-getStarted'>Get Started</button>
+                        <button onClick={()=>setSignIn(true)} className='loginScreen-getStarted-2'>Get Started</button>
                 </form>
             </div>
     </div> 

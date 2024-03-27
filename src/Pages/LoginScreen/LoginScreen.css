@@ -139,6 +139,10 @@
     margin-left: 10%;
     padding-top: 7%;
 }
+.second-slide .right img{
+    height: 50%;
+    width: 50%;
+}
 .nd-hr{
     border: 5px solid rgb(126, 118, 118);
     width: 103.4%;
@@ -155,6 +159,8 @@
 .third-slide .left img{
     margin-top: 10%;
     margin-right: 45%;
+    height: 50%;
+    width: 45%;
 }
 .third-slide .right{
     margin-left: 35%;
@@ -203,6 +209,10 @@
     margin-left: 10%;
     padding-top: 7%;
 }
+.fourth-slide img{
+    height: 50%;
+    width: 50%;
+}
 .fifth-slide{
     background-color: black;
     color: white;
@@ -213,6 +223,8 @@
 .fifth-slide .left img{
     margin-top: 10%;
     margin-right: 45%;
+    height: 50%;
+    width: 40%;
 }
 .fifth-slide .right{
     margin-left: 35%;
@@ -313,4 +325,182 @@
 .footer ul li{
     color: gray;
     text-decoration-color: gray;
+}
+.loginScreen-getStarted-2{
+    padding: 16px 30px 20px;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    color: white;
+    background-color: #e50914;
+    border: none;
+    font-weight: 530;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-left: 5px;
+}
+.loginScreen-getStarted-2:hover{
+    background-color: #ae0811;
+}
+@media screen and (max-width: 480px) {
+    .loginScreen{
+        width: 450px;
+    }
+    .first-slide h1{
+        font-size: 2.5rem;
+        font-weight: 600;
+    }
+    .loginScreen-getStarted{
+        margin-top: 10%;
+    }
+    .st-hr{
+        margin-top: 13.9%;
+        width: 110%;
+    }
+    .second-slide, .third-slide, .fourth-slide, .fifth-slide, .footer{
+        width: 109.8%;
+    }
+    .footer{
+        height: 150vh;
+    }
+    .accordion-slide{
+        width: 108.5%;
+        height: 150vh;
+        margin-top: -3%;
+    }
+    .loginScreen-button{
+        right: 100px;
+    }
+    .loginScreen-getStarted-2{
+        margin-top: 8%;
+    }
+    .second-slide .left h1{
+        font-size: 50px;
+        font-weight: 500;
+        margin-top: 20%;
+        flex-basis: 100%;
+    }
+    .second-slide .left p{
+        text-align: center;
+        flex-wrap: wrap;
+        font-weight: 450;
+        font-size: 22px;
+    }
+    .second-slide .right img{
+        width: 100%;
+        height: 100%;
+        margin-top: 20px;
+    }
+    .third-slide{
+        margin-top: -14px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .third-slide .left{
+        margin-bottom: 50%;
+        margin-top: 70%;
+        margin-left: 22%;
+        height: 45%;
+    }
+    .third-slide .left img{
+        margin-top: 10%;
+        height: 90%;
+        width: 90%;
+        margin-left: -9%;
+    }
+    .third-slide .right h1{
+        margin-top: -270%;
+        margin-left: -110px;
+        display: block;
+        font-weight: 500;
+        font-size: 50px;
+    }
+    .third-slide .right p{
+        margin-left: -100px;
+        margin-top: 20px;
+        font-size: 30px;
+    }
+    br{
+        display: none;
+    }
+    .fourth-slide{
+        margin-top: -10%;
+    }
+    .fourth-slide .left h1{
+        font-size: 50px;
+        font-weight: 500;
+        flex-basis: 100%;
+        margin-top: 20%;
+        margin-left: 5px;
+    }
+    .fourth-slide .left p{
+        text-align: center;
+        flex-wrap: wrap;
+        font-weight: 450;
+        font-size: 22px;
+    }
+    .fourth-slide .right img{
+        width: 100%;
+        height: 150%;
+        margin-top: 50px;
+    }
+    .fifth-slide{
+        margin-top: -15px;
+    }
+    .fifth-slide{
+        margin-top: -14px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .fifth-slide .left{
+        margin-bottom: 50%;
+        margin-top: 70%;
+        margin-left: 22%;
+        height: 45%;
+    }
+    .fifth-slide .left img{
+        margin-top: 10%;
+        height: 90%;
+        width: 90%;
+        margin-left: -9%;
+    }
+    .fifth-slide .right h1{
+        margin-top: -270%;
+        margin-left: -110px;
+        display: block;
+        font-weight: 500;
+        font-size: 50px;
+    }
+    .fifth-slide .right p{
+        margin-left: -100px;
+        margin-top: 20px;
+        font-size: 25px;
+    }
+    .accordion-slide{
+        margin-top: -15px;
+        width: 109.8%;
+        height: 140vh;
+    }
+    .accordion-slide .ahs{
+        font-size: 20px;
+    }
+    .loginScreen-getStarted-2{
+        margin-top: 10px;
+    }
+    .rd-hr{
+        margin-top: -20px;
+        width: 110%;
+    }
+    .footer{
+        margin-top: -20px;
+    }
+    .footer p{
+        display: inline-flex;
+        flex-basis: 100%;
+        font-size: 20px;
+        font-weight: 200;
+        width: 100%;
+    }
+    .footer .aa .dropdown p{
+        margin-top: 50%;
+    }
 }
